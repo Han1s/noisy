@@ -8,13 +8,12 @@ import { TanStackDevtools } from '@tanstack/react-devtools'
 
 import Header from '../components/Header'
 
-import TanStackQueryProvider from '../integrations/tanstack-query/root-provider'
-
 import TanStackQueryDevtools from '../integrations/tanstack-query/devtools'
 
 import appCss from '../styles.css?url'
 
-import type { QueryClient } from '@tanstack/react-query'
+import {type QueryClient, QueryClientProvider} from '@tanstack/react-query'
+import {getContext} from "@/integrations/tanstack-query/root-provider.tsx";
 
 interface MyRouterContext {
   queryClient: QueryClient
@@ -51,7 +50,7 @@ function RootDocument({ children }: { children: React.ReactNode }) {
         <HeadContent />
       </head>
       <body>
-        <TanStackQueryProvider>
+        <QueryClientProvider client={getContext().queryClient}>
           <Header />
           {children}
           <TanStackDevtools
@@ -66,7 +65,7 @@ function RootDocument({ children }: { children: React.ReactNode }) {
               TanStackQueryDevtools,
             ]}
           />
-        </TanStackQueryProvider>
+        </QueryClientProvider>
         <Scripts />
       </body>
     </html>
