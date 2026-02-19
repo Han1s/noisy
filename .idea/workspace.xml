@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9ec2ff1-7655-43b3-9a6f-7155a7c6bee2" name="Changes" comment="add routeTree.gen.ts to git">
-      <change afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/add/index.tsx" afterDir="false" />
+    <list default="true" id="c9ec2ff1-7655-43b3-9a6f-7155a7c6bee2" name="Changes" comment="add add endpoint">
+      <change afterPath="$PROJECT_DIR$/postcss.config.cjs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routeTree.gen.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routeTree.gen.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/__root.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/__root.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,7 +96,7 @@
       <updated>1771279650434</updated>
       <workItem from="1771279653022" duration="350000" />
       <workItem from="1771280019181" duration="1148000" />
-      <workItem from="1771527204076" duration="1954000" />
+      <workItem from="1771527204076" duration="3508000" />
     </task>
     <task id="LOCAL-00001" summary="fix tanstackquery bug because why should basic example work">
       <option name="closed" value="true" />
@@ -121,7 +122,15 @@
       <option name="project" value="LOCAL" />
       <updated>1771528408293</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add add endpoint">
+      <option name="closed" value="true" />
+      <created>1771530055847</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1771530055847</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +140,7 @@
     <MESSAGE value="fix tanstackquery bug because why should basic example work" />
     <MESSAGE value="delete a bunch of redundant code" />
     <MESSAGE value="add routeTree.gen.ts to git" />
-    <option name="LAST_COMMIT_MESSAGE" value="add routeTree.gen.ts to git" />
+    <MESSAGE value="add add endpoint" />
+    <option name="LAST_COMMIT_MESSAGE" value="add add endpoint" />
   </component>
 </project>

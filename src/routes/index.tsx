@@ -1,8 +1,9 @@
 import { createFileRoute } from '@tanstack/react-router'
 import { createServerFn } from '@tanstack/react-start'
+import { Button } from '@mantine/core'
 
 const serverLoader = createServerFn({ method: 'GET' }).handler(() => {
-  return { name: 'test2' }
+  return { name: 'test' }
 })
 
 export const Route = createFileRoute('/')({
@@ -14,5 +15,5 @@ export const Route = createFileRoute('/')({
 
 function App() {
   const data = Route.useLoaderData()
-  return <div>hello world - {data.name}</div>
+  return <Button variant="filled">Button {data.name}</Button>
 }
