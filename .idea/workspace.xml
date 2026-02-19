@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9ec2ff1-7655-43b3-9a6f-7155a7c6bee2" name="Changes" comment="fix tanstackquery bug because why should basic example work">
+    <list default="true" id="c9ec2ff1-7655-43b3-9a6f-7155a7c6bee2" name="Changes" comment="add routeTree.gen.ts to git">
+      <change afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/add/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tanstack-circle-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tanstack-word-logo-white.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routeTree.gen.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routeTree.gen.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,19 +31,27 @@
     &quot;accountId&quot;: &quot;db085390-7339-4cd0-886e-d37b784ce0a5&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="39lni7zOnzqt7wwz7HH3xixojeG" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
@@ -53,7 +60,8 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "npm.run dev.executor": "Run",
-    "settings.editor.selected.configurable": "editor.preferences.appearance",
+    "prettierjs.PrettierConfiguration.Package": "C:\\Users\\honza\\Desktop\\Coding\\noisy\\node_modules\\prettier",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
     "ts.external.directory.path": "C:\\Users\\honza\\Desktop\\Coding\\noisy\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -87,7 +95,7 @@
       <updated>1771279650434</updated>
       <workItem from="1771279653022" duration="350000" />
       <workItem from="1771280019181" duration="1148000" />
-      <workItem from="1771527204076" duration="1069000" />
+      <workItem from="1771527204076" duration="1954000" />
     </task>
     <task id="LOCAL-00001" summary="fix tanstackquery bug because why should basic example work">
       <option name="closed" value="true" />
@@ -97,7 +105,23 @@
       <option name="project" value="LOCAL" />
       <updated>1771281071788</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="delete a bunch of redundant code">
+      <option name="closed" value="true" />
+      <created>1771528365774</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1771528365774</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add routeTree.gen.ts to git">
+      <option name="closed" value="true" />
+      <created>1771528408293</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1771528408293</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,6 +129,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fix tanstackquery bug because why should basic example work" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix tanstackquery bug because why should basic example work" />
+    <MESSAGE value="delete a bunch of redundant code" />
+    <MESSAGE value="add routeTree.gen.ts to git" />
+    <option name="LAST_COMMIT_MESSAGE" value="add routeTree.gen.ts to git" />
   </component>
 </project>
