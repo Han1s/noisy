@@ -15,5 +15,6 @@ export const Route = createFileRoute('/')({
 
 function App() {
   const data = Route.useLoaderData()
+
   return <Button variant="filled">Button {data.name}</Button>
 }

@@ -1,7 +1,8 @@
 import {
-  createRootRouteWithContext,
   HeadContent,
+  Outlet,
   Scripts,
+  createRootRouteWithContext,
 } from '@tanstack/react-router'
 import { TanStackRouterDevtoolsPanel } from '@tanstack/react-router-devtools'
 import { TanStackDevtools } from '@tanstack/react-devtools'
@@ -13,14 +14,13 @@ import {
 } from '@mantine/core'
 import '@mantine/core/styles.css'
 
-import Header from '../components/Header'
+import { type QueryClient, QueryClientProvider } from '@tanstack/react-query'
 
 import TanStackQueryDevtools from '../integrations/tanstack-query/devtools'
 
 import appCss from '../styles.css?url'
-
-import { type QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { getContext } from '@/integrations/tanstack-query/root-provider.tsx'
+import { Layout } from '@/components/Layout/Layout.tsx'
 
 interface MyRouterContext {
   queryClient: QueryClient
@@ -54,7 +54,7 @@ export const Route = createRootRouteWithContext<MyRouterContext>()({
   shellComponent: RootDocument,
 })
 
-function RootDocument({ children }: { children: React.ReactNode }) {
+function RootDocument() {
   return (
     <html lang="en" {...mantineHtmlProps}>
       <head>
@@ -65,8 +65,9 @@ function RootDocument({ children }: { children: React.ReactNode }) {
       <body>
         <QueryClientProvider client={getContext().queryClient}>
           <MantineProvider theme={theme}>
-            <Header />
-            {children}
+            <Layout>
+              <Outlet />
+            </Layout>
           </MantineProvider>
           <TanStackDevtools
             config={{
