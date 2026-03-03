@@ -1,7 +1,7 @@
 import { Link, useRouterState } from '@tanstack/react-router'
 import { AppShell, Burger, Group, NavLink, Text } from '@mantine/core'
 import { useDisclosure } from '@mantine/hooks'
-import { IconVolume, IconPlus } from '@tabler/icons-react'
+import { IconPlus, IconVolume } from '@tabler/icons-react'
 
 const NAV_ROUTES = [
   {
